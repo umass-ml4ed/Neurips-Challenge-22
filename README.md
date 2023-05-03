@@ -1,5 +1,5 @@
 # Causal Knowledge Tracing
-NeurIPS 2022 CausalEdu Competition - Task 3
+The code for the EDM 2023 paper - A Conceptual Model for End-to-End Causal Discovery in Knowledge Tracing
 
 ## Setups
 The required environment is as bellow:  
@@ -24,7 +24,7 @@ The required environment is as bellow:
 
 ```/submissions/final``` - Contains the model and the adjacency matrix for submission on the private leaderboard. 
 
-## Running DCKT
+## Running the Causal GRU Model
 First install all dependecies of the projects below is the pip methodology. (Similiar approaches exist for conda or other package management systems).
 
 ```
@@ -32,7 +32,7 @@ pip3 install -r requirements.txt
 ```
 
 
-Here is an example how to train Deep Causal Knowledge Tracing (DCKT) with a `learning_rate` of 0.01.
+Here is an example how to train the Causal GRU Model with a `learning_rate` of 0.01.
 ```
 python3 predict_graph.py -L 1e-3
 ```
@@ -50,8 +50,8 @@ python3 construct_solution.py -f <Your Model File>
 The output of this script is a zip file containing the `.npy` casual order adjency matrix.
 
 Contact: ml4ed @ UMass Amherst
-- Jaewook Lee (jaewooklee@umass.edu)
-- Hunter McNichols (wmcnichols@umass.edu)
 - Nischal Ashok Kumar (nashokkumar@umass.edu)
 - Wanyong Feng (wanyongfeng@umass.edu)
+- Jaewook Lee (jaewooklee@umass.edu)
+- Hunter McNichols (wmcnichols@umass.edu)
 - Aritra Ghosh (arighosh@cs.umass.edu)
